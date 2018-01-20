@@ -13,7 +13,7 @@ here @ github or on my Website
 
 ## Stocksy module in action
 
-![Preview](assets/stocksy_preview.jpg)
+![Preview](assets/stocksy_preview.jpeg)
 
 ## more informationen
 * [Stocksy Module on Glancr](https://glancr.de/module/news/stocksy/)
