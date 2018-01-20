@@ -11,7 +11,7 @@ in addition to the original Stocksy Module, this module provides you with news t
 here @ github or on my Website
 * [Stocksy Module](http://alexanderdeutsch.de/stocksy)
 
-## Stocksy module in action
+## Stocksy News module in action
 
 ![Preview](assets/stocksy_preview.jpeg)
 
