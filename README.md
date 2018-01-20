@@ -1,4 +1,4 @@
-# mirrOS Stock Market module
+# mirrOS Stock Market News module
 
 in addition to the original Stocksy Module, this module provides you with news to your stocks
 
