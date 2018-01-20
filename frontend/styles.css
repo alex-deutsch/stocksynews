@@ -1,0 +1,28 @@
+#stocks_news_sub_title {
+	font-size: 10pt;
+	margin-left: 10px;
+	text-transform: capitalize;
+	line-height: 10px;
+}
+
+#stocks_news_table td {
+	padding-right: 20px;
+	padding-top: 0px !important;
+	height: 20px;
+	overflow: hidden;
+}
+
+#stocks_news_table td:nth-child(1) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#stocks_news_table td:nth-child(2) {
+	text-transform: capitalize;
+	padding-right: 40px;
+	max-width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
