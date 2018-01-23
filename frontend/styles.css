@@ -8,8 +8,9 @@
 #stocks_news_table td {
 	padding-right: 20px;
 	padding-top: 0px !important;
-	height: 20px;
+	height: 30px;
 	overflow: hidden;
+	vertical-align: top;
 }
 
 #stocks_news_table td:nth-child(1) {

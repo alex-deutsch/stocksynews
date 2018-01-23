@@ -12,26 +12,24 @@ function reloadStocksNews() {
 	
 	$.get(queryURLQuotes).done(function(data){
 		$("#stocks_news_table").empty();
-				var j = 0;
-				if (j < 7) {
+		var j = 0;
+		var i = 0;
+		while(j < 8) { 
 				for(key in data){
-					var i = 0;
 						var news = data[key].news;
 						var logo = data[key].logo;
-						$.each(news, function() {
-							if (i < 3){
-								$("#stocks_news_table").append("<tr></tr>");
-								$("#stocks_news_table tr:last").append("<td><img height='20' src='" + logo.url + "'></img></td>");
-								$("#stocks_news_table tr:last").append("<td width='100%'>" + this.headline + "</td>");
-							i++; 
-							}
-						});
-						j++;
+						if(news.length > i) {
+							$("#stocks_news_table").append("<tr></tr>");
+							$("#stocks_news_table tr:last").append("<td><img height='20' src='" + logo.url + "'></img></td>");
+							$("#stocks_news_table tr:last").append("<td width='100%'>" + news[i].headline + "</td>");
+							j++;
+						}
 					}
-				}
+				i++;
+			}
 	});
 
-		// reload every 10 minutes
+		// reload every 100 minutes
 		window.setTimeout(function() {
 			reloadStocksNews();
 		}, 6000000);
